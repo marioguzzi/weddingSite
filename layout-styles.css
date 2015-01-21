@@ -1,5 +1,6 @@
-html,body {
-  height: 100%;
+<link href='http://fonts.googleapis.com/css?family=Parisienne|Merriweather&subset=latin,latin-ext' rel='stylesheet' type='text/css'>  
+
+height: 100%;
 }
 
 * {
@@ -7,24 +8,49 @@ html,body {
 }
 
 body {
-  background: #ededed url("images/4sbeach.jpeg") no-repeat center;
-  color: #424242;
+  background-color: #F0F0F0; 
+  /*color: #424242;*/
   margin: 0;
-  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size:14px;
-  line-height:1.428571429;
+  text-transform: uppercase;
 }
 
+
+#fullName {
+  font-family: "Parisienne", cursive;
+  text-transform: none;
+  font-size: 64px;
+  text-indent: 50px;
+}
+
+#formalText{
+  font-family: "Merriweather", serif;
+  text-transform: uppercase;
+  font-size: 24px;
+  text-indent: 50px;
+}
+
+#letterText {
+  margin-top:0in;
+  margin-right:1in;
+  margin-bottom:10.0pt;
+  margin-left:1in;
+  line-height:115%;
+  font-size:12.0pt;
+  font-family:"Merriweather",serif;
+  text-transform: none;
+  /*text-indent: 50px;*/
+}
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   border: hidden;
-  background: linear-gradient(white, gray);
-  opacity: 70%;
-  border-radius: 25px;
+  /*background: linear-gradient(white, gray);*/
+  /*opacity: 70%;*/
+  /*border-radius: 15px;*/
   box-shadow: 10px 10px 5px #888888;
+  background-color: #F0F0F0; 
 }
 
 li {
@@ -32,7 +58,50 @@ li {
 }
 
 li a {font-size:25px;color:#000;text-decoration:none;line-height:50px;padding:0 22px;overflow:hidden}
-li a:hover, a {color:blue}
+li a:hover, a {text-decoration: underline;}
 
-.text-center{text-align:center}
+.text-center{
+  text-align: center; 
+  position: center;
+  background: white;
+  position: top=100px, left= 100px;
+}
 
+table.weddingCard{
+  border: solid 20px;
+  background-color: white; 
+}
+
+table.longMidleText{
+  border: none;
+  width: 50%;
+  height: 100%;
+  box-shadow: 10px 10px 5px #888888;
+  background-color: white;
+}
+
+tr, td {
+  border: none;
+  
+}
+
+td a {
+  color: #000;
+  text-decoration: none;
+}
+
+td a:hover, a {text-decoration: underline;}
+
+p.textNormal  {
+  margin-top:0in;
+  margin-right:1in;
+  margin-bottom:10.0pt;
+  margin-left:1in;
+  line-height:115%;
+  font-size:12.0pt;
+  font-family:"Merriweather",serif;
+  text-transform: none;
+}
+
+p a {color: #000; text-decoration: none;}
+p a:hover, a {text-decoration: underline;}
