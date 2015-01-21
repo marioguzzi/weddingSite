@@ -18,14 +18,21 @@ body {
 #fullName {
   font-family: "Parisienne", cursive;
   text-transform: none;
-  font-size: 64px;
+  font-size: 45px;
   text-indent: 50px;
 }
 
 #formalText{
   font-family: "Merriweather", serif;
   text-transform: uppercase;
-  font-size: 24px;
+  font-size: 18px;
+  text-indent: 50px;
+}
+
+#fourSeasonsPretty{
+  font-family: "Parisienne", serif;
+  text-transform: none;
+  font-size: 35px;
   text-indent: 50px;
 }
 
