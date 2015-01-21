@@ -30,7 +30,7 @@ body {
 }
 
 #fourSeasonsPretty{
-  font-family: "Parisienne", serif;
+  font-family: "Parisienne", cursive;
   text-transform: none;
   font-size: 35px;
   text-indent: 50px;
@@ -64,7 +64,7 @@ li {
   display: inline;
 }
 
-li a {font-size:25px;color:#000;text-decoration:none;line-height:50px;padding:0 22px;overflow:hidden}
+li a {font-size:20px;color:#000;text-decoration:none;line-height:50px;padding:0 22px;overflow:hidden}
 li a:hover, a {text-decoration: underline;}
 
 .text-center{
